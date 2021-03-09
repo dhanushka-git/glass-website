@@ -36,7 +36,7 @@ main{
 .glass{
     background: white;
     min-height: 80vh;
-    width: 60%;
+    width: 80%;
     background: linear-gradient(to right bottom, rgba(255,255,255, 0.7), rgba(255,255,255, 0.3));
     border-top-left-radius: 4rem;
     border-bottom-right-radius: 4rem;
@@ -180,3 +180,13 @@ main{
     justify-content: space-between;
 }
 
+.percentage{
+    font-weight:bold ;
+}
+
+
+@media (max-width: 900px){
+    .glass{
+        flex-direction: column;
+    }
+}
